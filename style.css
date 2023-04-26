@@ -1,0 +1,66 @@
+body {
+    font-family: Bahnschrift SemiBold;
+    background-image: url(imagens/pizza2.jpg), url(imagens/livros.jpg), url(imagens/claquete.jpg);
+    background-repeat: no-repeat;
+    background-position: right, 10% 20%, 25% 55%;
+    background-size: 1100px, 200px, 200px;
+}
+
+h1 {
+    font-size: 100px;
+    padding-top: 300px;
+    margin-bottom: 15px;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.pessoa {
+    margin-bottom: 10;
+}
+
+ul {
+    padding-left: 5px;
+    margin-top: 10px;
+}
+
+li:hover {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+li {
+    font-size: 30px;
+    list-style-type: none;
+}
+
+.fade-in-first {
+    animation: fade-in 1s;
+}
+
+.fade-in-last {
+    animation: fade-in 3s;
+}
+
+.email {
+    background-color: tomato;
+    padding: 15 15 15 15;
+    border-bottom: 30px;
+    border-radius: 5px;
+    color: white;
+}
+
+@keyframes fade-in {
+    0% { 
+        opacity: 0; 
+        transform: translate3d(-2000px, 0, 0);
+    }
+    100% { 
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+  
